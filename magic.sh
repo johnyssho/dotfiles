@@ -44,3 +44,4 @@ cd ~/dotfiles
 sudo mkdir ~/.local/bin/
 sudo cp bin/* ~/.local/bin/
 sudo ln -s ~/.local/bin/* /usr/local/bin/
+echo "Now do -sudo visudo- and append jh ALL=NOPASSWD: /usr/bin/make clean install"
