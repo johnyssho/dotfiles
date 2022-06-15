@@ -1,0 +1,93 @@
+[MainWindow]
+LVDS-1 Height 1366x768=743
+LVDS-1 Width 1366x768=1362
+LVDS-1 XPosition 1366x768=0
+LVDS-1 YPosition 1366x768=21
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAGFAAACPvwCAAAAAfwAAAG/AAACPgAAARgBAAAd+gAAAAACAAAABPsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAAKsBAAAC+wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAAB+AQAAAvsAAAASAHQAaQBtAGUAcgBlAG0AYQBwAQAAAAD/////AAAAWgEAAAL7AAAAEgBTAHUAYgB0AGkAdABsAGUAcwEAAAAA/////wAAAPoBAAACAAAAAgAAB3oAAAGh/AEAAAAL+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAGABAAAD+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGQBAAAD/AAAAAAAAAG8AAAAiwD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAAXAEAAAP7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAQBAAAD+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAABAEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAFcBAAAD+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABbAQAAA/wAAAG9AAACqQAAAUQA////+gAAAAACAAAAAvsAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAywEAAAL7AAAADgBsAGkAYgByAGEAcgB5AQAAAAD/////AAAAlAEAAAL8AAAEZwAAAxMAAAF1AP////oAAAAAAgAAAAP7AAAAHgBwAHIAbwBqAGUAYwB0AF8AbQBvAG4AaQB0AG8AcgEAAAC/AAABLAAAAMsBAAAC+wAAABAAdABlAHgAdABlAGQAaQB0AQAAAAD/////AAABZAEAAAL7AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAI4BAAAC+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABIgEAAAP7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAAChAQAAA/sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACaAQAAA/sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABRQEAAAP7AAAAEABiAGkAbgBfAGMAbABpAHAAAAAE/wAAAoEAAAI2AQAAA/sAAAAeAG8AbgBsAGkAbgBlAHIAZQBzAG8AdQByAGMAZQBzAAAAAAD/////AAABPAEAAAMAAAX0AAACPgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+VGA-1 Height 1920x1080=1053
+VGA-1 Width 1920x1080=1914
+VGA-1 XPosition 1920x1080=2
+VGA-1 YPosition 1920x1080=23
+
+[OnlineResources]
+provider=Freesound
+zoom=7
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Videos,$HOME/Documents
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorScheme=Breeze Dark
+ColorSchemePath=
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAAMAAAAAYAAAAiAAAABQAAAEkAAAAEAAAALAAAAAMAAAAzAAAAAgAAAFkAAAABAAAAMQAAAQ4AAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABDgAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAA4
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultprojectfolder[$e]=$HOME/Videos
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt-7/profiles
+rendererpath[$e]=/usr/bin/melt-7
+
+[project]
+vaapiEnabled=true
+vaapiScalingEnabled=true
+
+[timeline]
+trackheight=69
+
+[unmanaged]
+consumerslist=multi,null,cbrts,qglsl,blipflash,jack,avformat,xml,decklink,sdl2,sdl2_audio
+default_profile=atsc_1080p_25
+force_breeze=true
+producerslist=abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,vorbis,qimage,qtext,kdenlivetitle,blipflash,count,pgm,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,avformat,avformat-novalidate,xml,xml-string,xml-nogl,decklink,framebuffer,pango,pixbuf
+widgetstyle=Default
+
+[version]
+version=22.04.1

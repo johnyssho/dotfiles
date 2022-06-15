@@ -1,0 +1,39 @@
+super + shift + w
+	qutebrowser
+ctrl + alt + w
+	wallpaper
+XF86AudioMute
+	pamixer -t
+XF86AudioRaiseVolume
+	pamixer -i 5
+XF86AudioLowerVolume
+	pamixer -d 5
+super + p
+	dmen
+super + s
+	spotify
+super + shift + m
+	qutebrowser https://www.messenger.com/t/5233257123399123/
+super + shift + s
+	signal-desktop
+super + y
+	st -e ytfzf -s
+super + shift + y
+	st -e ytfzf -d -s
+alt + w
+	sxiv -t ~/pix/wall/*
+ctrl + alt + h
+	st -e htop
+
+ctrl + alt + s
+	share
+super + x
+	powercontrol
+super + shift + p
+	scrot -s
+XF86ScreenSaver
+	xlock -mode marquee
+super + shift + l
+	xlock -mode marquee
+XF86Display
+	undock

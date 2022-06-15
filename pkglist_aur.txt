@@ -1,0 +1,9 @@
+cnijfilter2-mg7700
+jmtpfs
+libxft-bgra
+nerd-fonts-hack
+pup
+python-pywalfox
+qview
+sc-im
+spotify

@@ -1,0 +1,3 @@
+Jun 02 12:10:24 host=smtp.seznam.cz tls=on auth=on user=hon.brod@email.cz from=hon.brod@email.cz recipients=luke@lukesmith.xyz mailsize=752 smtpstatus=250 smtpmsg='250 2.0.0 Mail 840895438 queued for delivery in session 128100000006.' exitcode=EX_OK
+Jun 02 12:23:20 host=smtp.seznam.cz tls=on auth=on user=hon.brod@email.cz from=hon.brod@email.cz recipients=hon.brod@email.cz mailsize=271 smtpstatus=250 smtpmsg='250 2.0.0 Mail 850782460 queued for delivery in session 279c0000000a.' exitcode=EX_OK
+Jun 02 12:55:57 host=smtps.seznam.cz tls=on auth=on user=hon.brod@email.cz from=hon.brod@email.cz recipients=hon.brod@email.cz errormsg='cannot locate host smtps.seznam.cz: Name or service not known' exitcode=EX_NOHOST
