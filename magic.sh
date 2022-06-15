@@ -11,9 +11,9 @@ cp .zshrc ~/
 sudo cp -r pix ~/
 sudo cp .xinitrc ~/
 sudo cp .bck ~/
-sudo cp -r .zsh-syntax-highlighting ~/
-cd ~/
-cd .zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 sudo make install
 cd ~/dotfiles
 cp -r config/* ~/.config/

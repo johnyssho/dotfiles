@@ -1,0 +1,6 @@
+#!/bin/sh
+
+query=$(echo $1 | tr ' ' '+')
+link=$(echo "https://youtube.com/$(curl -s "https://vid.puffyan.us/search?q=$query" | grep -Eo "watch\?v=.{11}" | head -n 1)")
+echo $link | xclip -sel c
+echo $link

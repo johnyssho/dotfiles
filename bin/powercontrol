@@ -1,0 +1,8 @@
+#!/bin/bash
+
+. "${HOME}/.cache/wal/colors.sh"
+
+
+decision=$(echo -e "poweroff\nreboot" | dmenu -fn "Nerd Hack Font" -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -i -p "Leaving? :00") 
+
+$decision

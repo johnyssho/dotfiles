@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#cp ~/Documents/templates/blank.rmd ~/$1.rmd; nvim $1.rmd;
+
+touch $1.rmd
+
+file=$1.rmd
+
+echo "---" >> $file
+echo "title: $1" >> $file
+echo "author: Jan Brodníček" >> $file
+echo "output:" >> $file
+echo " pdf_document:" >> $file
+echo "  toc: true" >> $file
+echo "  toc_depth: 1" >> $file
+echo "lang: cs" >> $file
+echo "---" >> $file
+
+nvim $file

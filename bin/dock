@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xrandr --output LVDS-1 --off
+nitrogen --set-zoom-fill $(cat ~/.bck)
+
