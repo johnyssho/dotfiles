@@ -41,4 +41,6 @@ cd ..
 cd ytfzf
 sudo make install
 cd ~/dotfiles
-#sudo ln -s ~/.local/bin/* /usr/local/bin/
+sudo mkdir ~/.local/bin/
+sudo cp bin/* ~/.local/bin/
+sudo ln -s ~/.local/bin/* /usr/local/bin/
