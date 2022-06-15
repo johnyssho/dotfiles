@@ -44,7 +44,6 @@ iptables-nft
 iwd
 jq
 kdenlive
-kmix
 kodi
 libtool
 libva-intel-driver
