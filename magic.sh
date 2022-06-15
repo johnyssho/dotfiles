@@ -11,6 +11,11 @@ cp .zshrc ~/
 sudo cp -r pix ~/
 sudo cp .xinitrc ~/
 sudo cp .bck ~/
+sudo cp -r .zsh-syntax-highlighting ~/
+cd ~/
+cd .zsh-syntax-highlighting
+sudo make install
+cd ~/dotfiles
 cp -r config/* ~/.config/
 mkdir -p ~/.local/src
 sudo cp -r src/* ~/.local/src/
