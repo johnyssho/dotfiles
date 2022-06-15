@@ -4,6 +4,5 @@ libxft-bgra
 nerd-fonts-hack
 pup
 python-pywalfox
-qview
 sc-im
 spotify

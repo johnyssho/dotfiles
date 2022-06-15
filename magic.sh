@@ -5,10 +5,10 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 cd yay
 makepkg -si
 cd ..
-yay -S - <pkglist_aur.txt
+yay -S --needed - <pkglist_aur.txt
 sudo usermod --shell /bin/zsh jh
 cp .zshrc ~/
-mv config/* ~/.config/
+cp -r config/* ~/.config/
 mkdir -p ~/.local/src
 sudo cp -r src/* ~/.local/src/
 cd ~/.local/src
