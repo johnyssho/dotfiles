@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sed -i "s/^#ParallelDownloads = 5$/ParallelDownloads = 15/" /etc/pacman.conf
 sudo pacman -S --needed - <pkglist.txt
 sudo pacman -S openssh sof-firmware
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git 
@@ -9,12 +10,13 @@ cd ..
 yay -S --needed - <pkglist_aur.txt
 sudo usermod --shell /bin/zsh jh
 cp .zshrc ~/
+cd
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+mv zsh-syntax-highlighting .zsh-syntax-highlighting
+cd dotfiles
 sudo cp -r pix ~/
 sudo cp .xinitrc ~/
 sudo cp .bck ~/
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 sudo make install
 cd ~/dotfiles
 cp -r config/* ~/.config/
@@ -45,4 +47,6 @@ cd ~/dotfiles
 sudo mkdir ~/.local/bin/
 sudo cp bin/* ~/.local/bin/
 sudo ln -s ~/.local/bin/* /usr/local/bin/
+cd
+sudo rm -r dotfiles
 echo "Now do -sudo visudo- and append jh ALL=NOPASSWD: /usr/bin/make clean install"
