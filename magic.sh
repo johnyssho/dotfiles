@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo sed -i "s/^#ParallelDownloads = 5$/ParallelDownloads = 15/" /etc/pacman.conf
 sudo pacman -S --needed - <pkglist.txt
 sudo pacman -S openssh sof-firmware
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git 
